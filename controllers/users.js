@@ -7,7 +7,6 @@ const jwt = require('jsonwebtoken');
  * @desс Логин
  * @access Public
  */
-
 const login = async (req, res) => {
 	try {
 		const { email, password } = req.body;
