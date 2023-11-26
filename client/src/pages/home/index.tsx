@@ -1,9 +1,9 @@
 import Layout from '../../components/layout';
 
-export const Register = () => {
+export const Home = () => {
 	return (
 		<Layout>
-			<div>register</div>
+			<div>Home Page</div>
 		</Layout>
 	)
 }
