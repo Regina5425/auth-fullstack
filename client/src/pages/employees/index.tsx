@@ -38,7 +38,7 @@ export const Employees = () => {
 
 	useEffect(() => {
 		if(!user) {
-			navigate(`${Paths.login}`)
+			navigate(`${Paths.login}`);
 		}
 	}, [navigate, user])
 

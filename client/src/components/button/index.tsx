@@ -4,7 +4,7 @@ import {Button, Form} from 'antd';
 type Props = {
 	children: ReactNode;
 	htmlType: 'button' | 'submit' | 'reset';
-	onClick: () => void;
+	onClick?: () => void;
 	type?: 'link' | 'text' | 'default' | 'primary' | 'dashed' | 'ghost';
 	danger?: boolean;
 	loading?: boolean;
