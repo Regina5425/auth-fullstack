@@ -69,7 +69,7 @@ const Employee = () => {
 				<>
 					<Divider orientation='left'>Действия</Divider>
 					<Space>
-						<Link to={`employee/edit/${data.id}`}>
+						<Link to={`/employee/edit/${data.id}`}>
 							<CustomButton htmlType='button' shape='round' type='default' icon={<EditOutlined />}>
 								Редактировать
 							</CustomButton>
